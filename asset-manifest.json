@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/starwar-logistics/static/js/main.c765081c.chunk.js",
-    "main.js.map": "/starwar-logistics/static/js/main.c765081c.chunk.js.map",
+    "main.js": "/starwar-logistics/static/js/main.3c23d43d.chunk.js",
+    "main.js.map": "/starwar-logistics/static/js/main.3c23d43d.chunk.js.map",
     "runtime-main.js": "/starwar-logistics/static/js/runtime-main.49a612af.js",
     "runtime-main.js.map": "/starwar-logistics/static/js/runtime-main.49a612af.js.map",
     "static/css/2.85a08808.chunk.css": "/starwar-logistics/static/css/2.85a08808.chunk.css",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.49a612af.js",
     "static/css/2.85a08808.chunk.css",
     "static/js/2.f859f207.chunk.js",
-    "static/js/main.c765081c.chunk.js"
+    "static/js/main.3c23d43d.chunk.js"
   ]
 }
