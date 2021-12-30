@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/starwar-logistics/static/js/main.ab88dca1.chunk.js",
+    "main.js.map": "/starwar-logistics/static/js/main.ab88dca1.chunk.js.map",
+    "runtime-main.js": "/starwar-logistics/static/js/runtime-main.49a612af.js",
+    "runtime-main.js.map": "/starwar-logistics/static/js/runtime-main.49a612af.js.map",
+    "static/css/2.cf1f8521.chunk.css": "/starwar-logistics/static/css/2.cf1f8521.chunk.css",
+    "static/js/2.fe8818a4.chunk.js": "/starwar-logistics/static/js/2.fe8818a4.chunk.js",
+    "static/js/2.fe8818a4.chunk.js.map": "/starwar-logistics/static/js/2.fe8818a4.chunk.js.map",
+    "index.html": "/starwar-logistics/index.html",
+    "static/css/2.cf1f8521.chunk.css.map": "/starwar-logistics/static/css/2.cf1f8521.chunk.css.map",
+    "static/js/2.fe8818a4.chunk.js.LICENSE.txt": "/starwar-logistics/static/js/2.fe8818a4.chunk.js.LICENSE.txt",
+    "static/media/footer-logo.2578e5d9.svg": "/starwar-logistics/static/media/footer-logo.2578e5d9.svg",
+    "static/media/logo.e5b2cb8e.svg": "/starwar-logistics/static/media/logo.e5b2cb8e.svg",
+    "static/media/main.3cb0e24e.png": "/starwar-logistics/static/media/main.3cb0e24e.png",
+    "static/media/ship.41d7d55d.png": "/starwar-logistics/static/media/ship.41d7d55d.png",
+    "static/media/slick-theme.css": "/starwar-logistics/static/media/slick.c94f7671.ttf",
+    "static/media/slide1.542726a3.png": "/starwar-logistics/static/media/slide1.542726a3.png",
+    "static/media/slide2.767e0618.png": "/starwar-logistics/static/media/slide2.767e0618.png",
+    "static/media/slide3.390a647b.png": "/starwar-logistics/static/media/slide3.390a647b.png",
+    "static/media/slider-arrow.adca2cff.svg": "/starwar-logistics/static/media/slider-arrow.adca2cff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a612af.js",
+    "static/css/2.cf1f8521.chunk.css",
+    "static/js/2.fe8818a4.chunk.js",
+    "static/js/main.ab88dca1.chunk.js"
+  ]
+}
