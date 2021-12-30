@@ -1,11 +1,13 @@
 import React, { FC } from 'react'
 
+import { aboutList } from '../../../utils/consts'
 // common styled
 import { Container, SectionContainer } from '../../common/Container/styled'
 import { Text, Title } from '../../common/Text/styled'
 
+import AboutItem from './AboutItem'
 // styled
-import { AboutContainer, AboutText } from './styled'
+import { AboutCards, AboutContainer, AboutText } from './styled'
 
 const About: FC = () => {
   return (
@@ -20,6 +22,11 @@ const About: FC = () => {
               has stopped all shipping to the small planet of Naboo.
             </Text>
           </AboutText>
+          <AboutCards>
+            {aboutList.map((item) => (
+              <AboutItem {...item} key={item.id} />
+            ))}
+          </AboutCards>
         </AboutContainer>
       </Container>
     </SectionContainer>
