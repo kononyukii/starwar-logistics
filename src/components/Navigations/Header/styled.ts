@@ -106,7 +106,7 @@ export const SideNavigation = styled.div<{ open?: boolean }>`
   overflow-y: scroll;
   width: 100vw;
   background: rgba(47, 52, 58, 0.98);
-  padding-top: 200px;
+  padding-top: 100px;
   transition: all 0.3s ease;
 
   @media screen and ${theme.media.medium} {
