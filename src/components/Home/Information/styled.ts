@@ -55,6 +55,7 @@ export const InfoSliderItem = styled.div`
   width: 100%;
   max-width: 445px;
   height: 265px;
+  outline: none;
 `
 
 export const InfoSliderImage = styled.img`
