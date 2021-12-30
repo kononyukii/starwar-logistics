@@ -23,7 +23,7 @@ const ServiceItem: FC<ServiceItemInterface> = ({ text, Image, i }) => {
   const [hoverable, hovered] = useHover(element)
 
   return (
-    <ServiceAnimationWrap duration={100} offset={50} animateIn="bounceInDown" animateOnce delay={500 + i * 300}>
+    <ServiceAnimationWrap duration={i * 100} offset={0} animateIn="bounceInDown" animateOnce delay={i * 300}>
       {hoverable}
     </ServiceAnimationWrap>
   )

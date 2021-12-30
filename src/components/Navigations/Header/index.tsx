@@ -36,7 +36,7 @@ const Header: FC = () => {
           {width > mobileSize && <Navigations />}
           <Burger active={active} toggleActive={toggleActive} />
           <SideNavigation open={active}>
-            <Navigations />
+            <Navigations onCloseBurger={toggleActive} />
           </SideNavigation>
         </HeaderContainer>
       </Container>
