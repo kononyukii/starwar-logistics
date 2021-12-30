@@ -35,8 +35,11 @@ const AboutItem: FC<AboutCardType> = ({ type, title, number, value }) => {
   }, [intersection])
 
   return (
-    <AboutCard type={type} ref={intersectionRef}>
-      <AboutNumb ref={countUpRef} isContent={!!number} />
+    <AboutCard type={type}>
+      <div ref={intersectionRef} />
+      <AboutNumb ref={countUpRef} isContent={!!number}>
+        0
+      </AboutNumb>
       <AboutTitle isContent={!!title}>{title}</AboutTitle>
       <AboutValue isContent={!!value}>{value}</AboutValue>
     </AboutCard>

@@ -1,16 +1,30 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 // styled
 import { NavItem, NavItems } from './styled'
 
-const Navigations = () => {
+type NavigationsType = {
+  onCloseBurger?: () => void
+}
+
+const Navigations: FC<NavigationsType> = ({ onCloseBurger }) => {
   return (
     <NavItems>
-      <NavItem to="home">home</NavItem>
-      <NavItem to="details">details</NavItem>
-      <NavItem to="services">services</NavItem>
-      <NavItem to="about">About</NavItem>
-      <NavItem to="contacts">contacts</NavItem>
+      <NavItem to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={onCloseBurger}>
+        home
+      </NavItem>
+      <NavItem to="details" spy={true} smooth={true} offset={0} duration={500} onClick={onCloseBurger}>
+        details
+      </NavItem>
+      <NavItem to="services" spy={true} smooth={true} offset={-50} duration={500} onClick={onCloseBurger}>
+        services
+      </NavItem>
+      <NavItem to="about" spy={true} smooth={true} offset={0} duration={500} onClick={onCloseBurger}>
+        About
+      </NavItem>
+      <NavItem to="contacts" spy={true} smooth={true} offset={0} duration={500} onClick={onCloseBurger}>
+        contacts
+      </NavItem>
     </NavItems>
   )
 }
