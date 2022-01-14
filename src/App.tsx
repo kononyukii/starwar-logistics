@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 import { Route, Routes } from 'react-router-dom'
 
 import Homepage from 'pages/Homepage'
 
 import Layout from './pages/Layout'
+import officesActions from './store/actions/offices'
 
 function App() {
+  // test effect
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(officesActions.get())
+  }, [])
   return (
     <>
       <Routes>

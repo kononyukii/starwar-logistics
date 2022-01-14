@@ -1,11 +1,10 @@
 import axios from 'axios'
 
-const baseURL = ''
+const baseURL = process.env.REACT_APP_MM_API_URL || ''
 
 export const instance = axios.create({
   baseURL,
   headers: {
-    'Content-Type': 'application/json',
-    'X-CoinAPI-Key': ''
+    'Content-Type': 'application/json'
   }
 })
