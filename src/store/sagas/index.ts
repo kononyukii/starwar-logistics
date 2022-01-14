@@ -1,3 +1,7 @@
+import { takeEvery } from '@redux-saga/core/effects'
+
+import { sagaGetOffices } from './offices'
+
 export function* sagaWatcher(): Generator {
-  yield 1
+  yield takeEvery('GET_OFFICES', sagaGetOffices)
 }

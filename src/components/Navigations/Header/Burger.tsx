@@ -7,7 +7,7 @@ interface IBurger {
   toggleActive: () => void
 }
 
-export const Burger: FC<IBurger> = ({ active, toggleActive }) => {
+const Burger: FC<IBurger> = ({ active, toggleActive }) => {
   return (
     <CustomBurger active={active} onClick={toggleActive}>
       <Line />
